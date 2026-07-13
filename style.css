@@ -211,6 +211,8 @@ box-shadow:var(--shadow);
 .about-content h2{
     font-size:40px;
     margin-bottom:20px;
+        --primary:#4F46E5;
+
 }
 .about-content p{
     font-size:17px;
@@ -309,6 +311,8 @@ box-shadow:var(--shadow);
 }
 .test-title{
     text-align: center;
+        --primary:#4F46E5;
+
 }
 .test-title h1{
             font-size:40px;
@@ -360,7 +364,8 @@ color: black;
 }
 .price-card h2{
     font-size:40px;
-    color:var(--primary);
+            color:var(--primary);
+
     margin:20px 0;
 }
 .price-card ul{
