@@ -311,11 +311,12 @@ box-shadow:var(--shadow);
 }
 .test-title{
     text-align: center;
-        --primary:#4F46E5;
 
 }
 .test-title h1{
             font-size:40px;
+                    --primary:#4F46E5;
+
 }
 .test-title p {
     color: grey;
