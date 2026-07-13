@@ -211,8 +211,7 @@ box-shadow:var(--shadow);
 .about-content h2{
     font-size:40px;
     margin-bottom:20px;
-        --primary:#4F46E5;
-
+    color: blueviolet;
 }
 .about-content p{
     font-size:17px;
@@ -315,7 +314,7 @@ box-shadow:var(--shadow);
 }
 .test-title h1{
             font-size:40px;
-                    --primary:#4F46E5;
+            color: blueviolet;
 
 }
 .test-title p {
