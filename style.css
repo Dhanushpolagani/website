@@ -381,6 +381,8 @@ color: black;
 .price-title{
     text-align:center;
     font-size: 20px;
+        color:blueviolet;
+
 }
 .price-title p{
     color: grey;
