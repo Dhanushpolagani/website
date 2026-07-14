@@ -151,13 +151,14 @@ box-shadow:var(--shadow);
     margin-bottom:10px;
 }
 .section-title p{
-    color:gray;
+color:var(--text);
 }
 .cards{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:60px;
 }
+
 .card{
     background:#fff;
     padding:30px;
@@ -535,5 +536,204 @@ background-color: aquamarine;
 .footer p{
 
     color:#fcf9f9;
+    
+
+}
+@media (max-width:480px){
+
+    .logo{
+
+        font-size:28px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:30px;
+
+    }
+
+    .hero-content p{
+
+        font-size:15px;
+
+    }
+
+    .section-title h2,
+    .test-title h2,
+    .price-title h2,
+    .faq-title h2,
+    .contact h2,
+    .subscribe h2{
+
+        font-size:28px;
+
+    }
+
+    .btn{
+
+        padding:12px 22px;
+
+        font-size:14px;
+
+    }
+
+    .card,
+    .cardss,
+    .ser-card,
+    .test-card,
+    .price-card{
+
+        padding:20px;
+
+    }
+
+}
+@media (max-width:768px){
+
+    .header{
+        flex-direction: column;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        padding:30px;
+
+        text-align:center;
+
+    }
+
+    .hero-content h1{
+
+        font-size:38px;
+
+    }
+
+    .hero-content p{
+
+        font-size:16px;
+
+    }
+
+    .about{
+
+        flex-direction:column;
+
+        padding:20px;
+
+    }
+
+    .about-content{
+
+        text-align:center;
+
+    }
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .cards-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .service-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .test-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .price-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .subscribe{
+
+        padding:40px 20px;
+
+    }
+
+    .subscribe form{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .subscribe input{
+
+        width:100%;
+
+    }
+
+    .contact-form{
+
+        width:100%;
+
+    }
+
+}
+@media (max-width: 992px){
+
+    .header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cards-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .service-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .test-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .price-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .subscribe form{
+        flex-direction: column;
+    }
 
 }
